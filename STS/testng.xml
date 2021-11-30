@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="STS Assignment Automation Test" verbose="1" >
+ 
+ <listeners>
+<listener class-name="sts.com.qa.extentreport.ExtentReporterNG"/>
+</listeners>
+ 
+  <test name="STS_Assignment">
+    <classes>
+      <class name="sts.com.qa.testcases.LoginPageTest"/>
+      <class name="sts.com.qa.testcases.HomePageTest"/>
+      <class name="sts.com.qa.testcases.RowSelectionTest"/>
+    </classes>
+  </test>
+</suite>
+
